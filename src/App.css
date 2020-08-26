@@ -31,6 +31,10 @@
   font-size:2.75rem;
 }
 
+.quote-text-long{
+  font-size: 2rem;
+}
+
 .fa-quote-left{
   font-size: 4rem;
   padding: 5px;
@@ -103,6 +107,6 @@ fa-twitter{
   }
 
   .quote-text{
-    font-size: 2.5rem;
+    font-size: 2.0rem;
   }
 }

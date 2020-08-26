@@ -59,7 +59,7 @@ class App extends Component {
     return (
       <div className="App">
         {!isLoading && <div className="quote-container">
-          <div className="quote-text">
+          <div className={`quote-text ${quoteText.length > 120 && "quote-text-long"}`}>
             <i className="fas fa-quote-left"></i>
             <span>{quoteText}</span>
           </div>
